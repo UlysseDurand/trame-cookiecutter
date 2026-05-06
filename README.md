@@ -41,11 +41,10 @@ The **project_type** can be only one of the following options:
     By default a simple vtk.js application is used as reference to provide
     the trame basic while demonstrating an interactive application with code
     separation between the Python core and the web frontend.
-    Whithin that Python package, a jupyter helper module will also be available
-    to run and show your application within a jupyter environment.
-    On top of that Python package, you will have access to several bundling
-    option ranging from a standalone executable to a docker image for cloud
-    deployment.
+    Within that Python package, a jupyter helper module will also be available
+    to run and show your application within a jupyter environment.  On top of
+    that Python package, you will have access to several bundling option ranging
+    from a standalone executable to a docker image for cloud deployment.
 * **App with Components**
     This will provide the same infrastructure as above but with an additional
     directory that will contain a vue.js project for defining new UI elements
