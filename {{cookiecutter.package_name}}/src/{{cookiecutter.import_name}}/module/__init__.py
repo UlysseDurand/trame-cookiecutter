@@ -1,8 +1,6 @@
 from pathlib import Path
 
-from trame_client.utils.version import get_version
-
-__version__ = get_version("{{cookiecutter.import_name}}")
+from {{cookiecutter.import_name}} import __version__
 
 # Compute local path to serve
 serve_path = str(Path(__file__).with_name("serve").resolve())
